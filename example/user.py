@@ -1,7 +1,6 @@
 from pathlib import Path
 import sys
 sys.path.append(Path(__file__).parents[1])
-print(sys.path)
 
 from firestore_orm.base import Base
 
